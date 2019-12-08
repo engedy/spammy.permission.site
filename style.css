@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  box-sizing: border-box;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  align-self: center;
+}
+
+button {
+  background: #FFF; border: none;
+  font-size: 1.5em;
+  width: 400px; padding: 0.5em; margin: 10px 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition: all 150ms;
+}
+
+button:hover {
+  background: #FFA;
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  transform: translateY(-2px);
+}
