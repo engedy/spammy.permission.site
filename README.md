@@ -1,2 +1,2 @@
 # spammy.permission.site
-Testing site that sends unsolicited notification permission requests
+Testing site that is known to send unsolicited notification permission requests.
