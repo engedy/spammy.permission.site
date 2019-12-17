@@ -1,19 +1,22 @@
 body {
-  text-align: center;
+  text-align: left;
   box-sizing: border-box;
-  padding: 2em;
   display: flex;
   flex-direction: column;
 }
 
 .content {
+  padding: 1ex 0;
   align-self: center;
+  width: 400px;
 }
 
 button {
   background: #FFF; border: none;
   font-size: 1.5em;
-  width: 400px; padding: 0.5em; margin: 10px 10px;
+  padding: 1ex 0;
+  margin: 2ex 0;
+  width: 400px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition: all 150ms;
 }
